@@ -20,9 +20,35 @@ for (let i = 0; i <= 200; i++) {
 
 /////I THINK THIS NEEDS AN ARRAY OF RESPONSES AND A WHILE LOOP....COME BACK TO THIS
 
+//const months = ["January", "February", "March", "April", "May", "June", "July"];
+
+//const random = Math.floor(Math.random() * months.length);
+//console.log(random, months[random]);
+
+const kitten = [
+  "...human...why you taking pictures of me?...",
+  "...the catnip made me do it...",
+  "...why does the red dot always get away...",
+];
+const random = Math.floor(Math.random() * kitten.length);
+
+for (let i = 1; i < 21; i++) {
+  if (i % 2 === 0) {
+    console.log(random, kitten[random]);
+  } else {
+    console.log("Love me, pet me! HSSSSSSS!");
+  }
+}
+
 //for (let i = 1; i < 21; i++) {
-//if (i )
+//if (i % 2 === 0) {
+//console.log(Math.random["...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..."])
+//} else {
+// console.log("Love me, pet me! HSSSSSS!");
 //}
+//}
+
+// console.log(i);
 
 // ## Fizz Buzz
 
